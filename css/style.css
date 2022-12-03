@@ -1,0 +1,153 @@
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Bloco de códigos da Padrão */
+  .cabecalho-padrao {
+    background-image: url(./backgroud-fundo.jpeg);
+    background-size: contain;
+    /* background-color: rgb(23, 95, 195); */
+    padding: 20px;
+    text-align: center;
+    font-size: 20px ;
+    color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    line-height: 1.5;
+  }
+
+ .img-logo{
+    height: 100px;
+    border-radius: 15px;
+  }
+  
+  .menu-lateral {
+    float: left;
+    width: 15%;
+    height: 420px; 
+    background: rgb(199, 209, 212);
+    padding: 20px;
+  }
+
+  menu ul, li {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 20px;
+    line-height: 1.5;
+  }
+
+  .indice-paginas{
+    padding: 10px;
+
+  }
+
+  article {
+    float: left;
+    padding: 20px;
+    width: 85%;
+    background-color: #f1f1f1;
+    height: 420px; 
+  }
+
+  /* section::after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+  #rodape{
+    background-color: black;
+    width: 100%; 
+    padding: 30px;
+    text-align:center;
+    line-height: 25px; 
+    /* revisar espaçamento de linha */
+    color: white; 
+  }
+
+/* Bloco de Notas da pagina Home */
+#paragrafo-home{
+  padding: 25px;
+}
+
+/* Bloco de CSS da pagina Revisão */
+#artigo-revisao {
+  padding: 5px;
+}
+.img-estrutura-css{
+  padding-left: 25px;
+}
+
+#img-revisao-estrutura{
+  height: 250px;
+  padding-right: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#nota-revisao{
+  padding-left: 25px;
+}
+
+#nota-revisao label, {
+ padding: 10px;
+ margin: 10px;
+}
+
+#notas{
+  margin-top: 15px;
+  padding: 5px;
+  margin-left: 25px;
+}
+
+#buttom-reprocessar {
+  margin-top: 15px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(17, 17, 21);
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+/* Bloco de Códigos da Página Prova */
+
+#dados-aluno{
+  padding: 10px;
+}
+#questao{
+  padding: 10px;
+}
+
+#codigo-analise pre
+{
+  width: 70%;
+  padding: 10px;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  float: left;
+
+}
+
+/* Bloco de Código da Página Notas */
+
+.table-nota td{
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
+.table-nota{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  text-align: center;
+  padding: 25px
+}
