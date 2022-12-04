@@ -10,13 +10,19 @@
   .cabecalho-padrao {
     background-image: url(./backgroud-fundo.jpeg);
     background-size: contain;
-    /* background-color: rgb(23, 95, 195); */
+    width: 100%;
     padding: 20px;
     text-align: center;
     font-size: 20px ;
     color: white;
-    /* font-family: Arial, Helvetica, sans-serif; */
     line-height: 1.5;
+
+    float: inline-start;
+    width: 100%;
+
+    /* display: inline-block;
+    position: fixed; */
+   
   }
 
  .img-logo{
@@ -27,16 +33,20 @@
   .menu-lateral {
     float: left;
     width: 15%;
-    height: 420px; 
+    min-height: 420px;
+    height: auto; 
     background: rgb(199, 209, 212);
     padding: 20px;
+    text-decoration: none;
   }
 
-  menu ul, li {
+  menu ul, li, a {
     font-size: 20px;
     list-style-type: none;
     padding: 20px;
     line-height: 1.5;
+    text-transform: uppercase;
+    text-decoration: none;
   }
 
   .indice-paginas{
@@ -49,7 +59,9 @@
     padding: 20px;
     width: 85%;
     background-color: #f1f1f1;
-    height: 420px; 
+    /* height: 420px;  */
+    min-height: 420px;
+    height: auto; 
   }
 
   /* section::after {
@@ -73,19 +85,46 @@
   padding: 25px;
 }
 
+/* Bloco de Notas da Pagina Aulas */
+.menu-aulas li{
+  display: inline-block;
+  padding: 20px;
+  margin: 2% 1.5%;
+  text-align: center;
+  width: 13%;
+
+  box-sizing: border-box ;
+  vertical-align: top;
+  border: 1px solid black;
+  border-radius: 15px;
+
+}
+
+.img-aula{
+  height: 100px;
+}
+
 /* Bloco de CSS da pagina Revisão */
 #artigo-revisao {
   padding: 5px;
-}
-.img-estrutura-css{
-  padding-left: 25px;
+  display: inline-block;
+
 }
 
 #img-revisao-estrutura{
-  height: 250px;
+  display: inline-block;
+  width: 100%;
   padding-right: 10px;
-  margin-top: 20px;
-  text-align: center;
+  position: relative;
+  
+}
+
+.img-estrutura-css{
+  display: inline-block;
+  padding-left: 25px;
+  /* position:static; */
+  /* width: 50%; */
+  
 }
 
 #nota-revisao{
@@ -127,13 +166,11 @@
 
 #codigo-analise pre
 {
-  width: 70%;
+  width: 100%;
   padding: 10px;
   border: 1px solid black;
   color: white;
-  background-color: black;
-  float: left;
-
+  background-color: black
 }
 
 /* Bloco de Código da Página Notas */
